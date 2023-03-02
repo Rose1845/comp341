@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>register</title>
+  </head>
+  <style>
+    h1,
+    p {
+      text-align: center;
+    }
+    .getStarted {
+      display: flex;
+      justify-items: center;
+      align-items: center;
+      gap: 10;
+    }
+    .titleS {
+      display: center;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 3;
+    }
+    img {
+      width: 500px;
+      height: 500px;
+    }
+    div .form {
+      display: center;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 3px;
+    }
+    .continue {
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      background-color: #0051ff;
+    }
+    .google {
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      background-color: rgb(105, 105, 216);
+    }
+    .Facebook {
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      background-color: rgb(97, 97, 211);
+    }
+
+    input[type="password"],
+    input[type="email"] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      background-color: #4caf50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    div {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    a {
+      text-decoration: none;
+    }
+  </style>
+  <body>
+    <div class="titleS">
+      <h1>Lets get Started</h1>
+      <p>A designer space you'll love... at a price you'll love even more!</p>
+    </div>
+    <div class="getStarted">
+      <div>
+        <img
+          class="imgS"
+          src="https://cdn.decorilla.com/imgp/jpg/c493e256-d915-411f-a626-e435b16ce27f/online-interior-design-jobs-signup.jpg"
+          alt=""
+        />
+      </div>
+      <div class="form">
+        <form action="/action_page.php">
+          <div>
+            <label for="fname">Email</label>
+            <input
+              type="email"
+              id="fname"
+              name="firstname"
+              placeholder="Your name.."
+            />
+          </div>
+
+          <div>
+            <label for="lname">password</label>
+            <input
+              type="password"
+              id="lname"
+              name="lastname"
+              placeholder="Your last name.."
+            />
+          </div>
+
+          <input type="submit" value="login" />
+          <input type="submit" value="Sign In with Facebook" />
+          <input type="submit" value="Sign In with Google" />
+        </form>
+        <div>
+          <p>Dont have an account?<a href="./started.html">Sign Up here</a></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
