@@ -82,6 +82,9 @@
         font-weight: 900;
         color: #000;
     }
+    .mb{
+      padding-bottom: 30px;
+    }
   </style>
   <body>
     <header>
@@ -89,7 +92,6 @@
         <div class="group">
           <ul class="navigation topnav" id="myTopnav">
             <li><a href="">Home</a></li>
-            <li><a href="./about.html">ABout</a></li>
             <li><a href="./services.html">Services</a></li>
             <li><a href="./contact.html">Contact</a></li>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -112,7 +114,7 @@
         <h1>Contact Us.</h1>
       <div class="form">
         <form action="/action_page.php">
-          <div>
+          <div class="mb">
             <label for="fname">Email:</label>
             <input
               type="email"
@@ -122,8 +124,7 @@
               required
             />
           </div>
-
-          <div>
+          <div class="mb">
             <label for="lname">Name:</label>
             <input
               type="text"

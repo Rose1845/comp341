@@ -66,25 +66,8 @@ ul li a:hover::after {
     a .icon{
         display: block;
     }
-    .group{
-        display: flex;
-        flex-directhttps://www.youtube.com/results?search_query=interior+designion: column;
-        float: left;
-    }
-    header ul {
-        position: relative;
-        display: flex;
-        gap: 10px;
-        background-color: blue;
-      }
-      header ul li a {
-        position: relative;
-        text-decoration: none;
-        font-size: 1em;
-        color: #333;
-        text-transform: uppercase;
-        letter-spacing: 0.2em;
-      }
+
+      
 }
 
 main {
@@ -137,12 +120,7 @@ main {
   flex: 2;
   padding-left: 20px;
 }
-.download {
-  font-size: 20px;
-  font-weight: 500;
-  padding: 16px;
-  background-color: #0000ff;
-}
+
 #img {
   flex: 1;
   width: 300px;
