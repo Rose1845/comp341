@@ -1,147 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style1.css">
-    <title>contact</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style1.css" />
+    <title>Website</title>
   </head>
-  <style>
-    h1
-     {
-      text-align: center;
-      padding-top: 20px;
-      margin-top: 12px;
-    }
-    .getStarted {
-      display: flex;
-      justify-items: center;
-      align-items: center;
-      flex-direction: column;
-      gap: 10;
-    }
-    .titleS {
-      display: center;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      gap: 3;
-    }
-    
-    div .form {
-      display: center;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-     
-    }
-    .continue {
-      border: none;
-      color: white;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      background-color: #0051ff;
-    }
+<style>
+  h3{
+    text-align: center;
+  }
+input[type=text], textarea ,input[type=email]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
 
-   
-    input[type="text"],input[type="email"],textarea {
-      width: 100%;
-      padding: 12px 20px;
-      /* margin: 8px 0; */
-      display: inline-block;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      box-sizing: border-box;
-    }
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
-    input[type="submit"] {
-      width: 100%;
-      background-color: #4caf50;
-      color: white;
-      padding: 14px 20px;
-      margin: 8px 0;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-    }
+input[type=submit]:hover {
+  background-color: #45a049;
+}
 
-    input[type="submit"]:hover {
-      background-color: #45a049;
-    }
-
-    div {
-      border-radius: 5px;
-      background-color: #f2f2f2;
-      padding: 20px;
-    }
-    .logo{
-        font-weight: 900;
-        color: #000;
-    }
-    .mb{
-      padding-bottom: 30px;
-    }
-  </style>
-  <body>
-    <header>
-        <a href="" class="logo">INTERIOR DESIGN</a>
-        <div class="group">
-          <ul class="navigation topnav" id="myTopnav">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./services.html">Services</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
-            </a>
-          </ul>
-        </div>
-        <!-- menu mobile -->
-        <!-- <div class="topnav" id="myTopnav">
-          <a href="#home" class="active">Home</a>
-          <a href="#news">News</a>
-          <a href="#contact">Contact</a>
-          <a href="#about">About</a>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a>
-        </div> -->
-      </header>
-    <div class="getStarted">
-        <h1>Contact Us.</h1>
-      <div class="form">
-        <form action="/action_page.php">
-          <div class="mb">
-            <label for="fname">Email:</label>
-            <input
-              type="email"
-              id="fname"
-              name="firstname"
-              placeholder="Your email.."
-              required
-            />
-          </div>
-          <div class="mb">
-            <label for="lname">Name:</label>
-            <input
-              type="text"
-              id="lname"
-              name="lastname"
-              placeholder="Your  name.."
-              required
-            />
-          </div>
-          <div>
-            <label for="fname">Message</label>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-          </div>
-
-          <input type="submit" value="SEND MESSAGE" />
-        </form>
-      </div>
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<body>
+  <header>
+    <a href="" class="logo">INTERIOR DESIGN</a>
+    <div class="group">
+      <ul class="navigation topnav" id="myTopnav">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./services.html">Services</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </ul>
     </div>
-  </body>
+    <!-- menu mobile -->
+    <!-- <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div> -->
+  </header>
+
+<h3>Contact Us</h3>
+
+<div>
+  <form action="">
+    <div>
+      <label for="fname">Name:</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.."required>
+
+    <label for="lname">Email:</label>
+    <input type="email" id="lname" name="lastname" placeholder="Your email..."required>
+
+   <div>
+    <label for="country">Country</label>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+   </div>
+  
+    </div>
+   <div>
+    <input type="submit" value="SEND MESSAGE">
+   </div>
+  </form>
+</div>
+
+</body>
 </html>

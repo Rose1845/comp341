@@ -1,6 +1,7 @@
 * {
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
   font-family: Arial, Helvetica, sans-serif;
 }
 /* body{
@@ -62,9 +63,12 @@ ul li a:hover::after {
   width: 100%;
   background: #033aa1;
 }
-@media  screen and (min-width:768px) {
+@media  screen and (max-width:768px) {
     a .icon{
-        display: block;
+       float: right;
+    }
+    .group{
+      display: none;
     }
 
       
@@ -72,6 +76,7 @@ ul li a:hover::after {
 
 main {
   padding-top: 50px;
+  
 }
 /* home-section */
 .home-section {
